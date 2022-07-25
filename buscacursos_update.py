@@ -108,7 +108,7 @@ def buscacursos_update():
                     print(sections[j]['Nombre'], ' Actualización sección', sections[j]['Sec.'],':', courses[i][j]['Disponibles'], '->', sections[j]['Disponibles'], '\n')
                     courses[i][j]['Disponibles'] = sections[j]['Disponibles']
 
-            time.sleep(1)
+            time.sleep(10)
 
 if __name__ == "__main__":
     buscacursos_update()
