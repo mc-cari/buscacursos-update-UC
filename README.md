@@ -1,13 +1,14 @@
 # buscacursos-update
 
-Se puede añadir uno o varios ramos por consola o directamente en la lista `codes` dentro del código, para esos ramos la terminal avisará cuando exista un cambio de cupos disponibles en alguna sección en tiempo real.
+Python scrypt to detect course available vacancies changes in terminal, with an aditional version for desktop notifications.
 
-Ejemplo: <br /> <br />
-![image](https://user-images.githubusercontent.com/42097398/180878993-1b515cd7-aa10-4fc5-b3a0-e788bdf902e0.png)
-# Ejecución
-`py buscacursos_update.py`
+Example: <br /> <br />
+![image](https://user-images.githubusercontent.com/42097398/180851690-88682581-ed36-450f-8b83-ad55f1aa7e43.png)
 
-# Requisitos
+# Execution
+The scrypt can be run with `buscacursos_update.py` or with `buscacursos_update_notifications.py` to enable desktop notifiations (notifications in the system has to be enabled)
+
+# Requisites
 Python 3.7+ <br />
-`pip install requests` <br />
-`pip install beautifulsoup4`
+Libraries: `requests`, `beautifulsoup4`, `time` <br />
+Libraries only for notifications: `plyer`, `os`, `platform`
