@@ -1,6 +1,6 @@
 # buscacursos-update
 
-Python scrypt to detect course available vacancies changes in [Buscacursos](https://buscacursos.uc.cl/), with an aditional version for desktop notifications.
+Python script to detect course available vacancies changes in [Buscacursos](https://buscacursos.uc.cl/), with an aditional version for desktop notifications.
 
 Example: <br /> <br />
 ![image](https://user-images.githubusercontent.com/42097398/180851690-88682581-ed36-450f-8b83-ad55f1aa7e43.png)
