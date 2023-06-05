@@ -1,4 +1,4 @@
-# buscacursos-update
+# Buscacursos Update UC
 
 Python script to detect course available vacancies changes in [Buscacursos](https://buscacursos.uc.cl/), with an aditional version for desktop notifications.
 
